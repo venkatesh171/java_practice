@@ -5,6 +5,7 @@ public class Customer {
 	private String name;
 	private boolean isLocked;
 	private float balance;
+	public static String orginazion;
 	
 	public Customer(int id, String name, boolean isLocked, float balance) {
 		this.id = id;
