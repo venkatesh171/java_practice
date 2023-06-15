@@ -13,6 +13,10 @@ public class Test {
 //		Using interface
 		ATM atm  = new HDFCATM();
 		atm.withDraw();
+		
+		ATM atm2 = new ICICATM();
+		atm2.withDraw();
+		
 	}
 
 }
