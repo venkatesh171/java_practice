@@ -3,14 +3,14 @@ package exceptionHandling;
 public class ExcHandling {
 	
 	public static void main(String [] arr) {
-		float res = division(10, 0);
+		float res = division(10, 3);
 		System.out.println("division result = "+res);
 		
 		int r = convertStringIntToInt("abc");
 		System.out.println(r);
 	}
 	
-	private static float division(int num1, int num2) {
+	private static float division(float num1, float num2) {
 		float result = 0;
 		try {
 			result = num1 / num2;
