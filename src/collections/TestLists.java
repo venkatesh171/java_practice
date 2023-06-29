@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class TestLists {
@@ -25,6 +26,17 @@ public class TestLists {
 		
 		System.out.println("This is a list of String data type");
 		for(Object l: list1) {
+			System.out.println(l);
+		}
+		
+		List<String> list2 = new LinkedList<>();
+		list2.add("1");
+		list2.add("venkatesh");
+		list2.add("false");
+		list2.add("123.456");
+		
+		System.out.println("This is a LinkedList of String data type");
+		for(Object l: list2) {
 			System.out.println(l);
 		}
 	}
