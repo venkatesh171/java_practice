@@ -15,6 +15,8 @@ public class TestMap {
 		map.put(2, "Hello");
 		map.put(2, "World");
 		
+		map.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
+		
 		Set<Entry<Integer, String>> set = map.entrySet();
 		System.out.println(map);
 		System.out.println("printing entire map values after converting to set");
