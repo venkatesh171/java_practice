@@ -11,6 +11,7 @@ public class TestMap {
 		//Like sets in maps there is hash  map, linked hash map, and tree map
 		Map<Integer, String> map = new HashMap<>();
 		map.put(1, "Venkatesh");
+		map.put(3, "be cool");
 		map.put(2, "Hello");
 		map.put(2, "World");
 		
